@@ -1,34 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hannan eka HTML sivu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 <header>
-  <h1>My Second Website</h1>
+  <h1>Welcome to my page</h1>
+  <div class="responsive-box">This changes color when the screen is resized</div>
   <nav>
-    <ul>
-      <li><a href="#about">Everything</a></li>
-      <li><a href="#services">Something</a></li>
-      <li><a href="#contact">Nothing</a></li>
-    </ul>
+<div class="flex-container">
+  <div class="box"><a href="#about">About me</a></div>
+  <div class="box"><a href="#hobbies">My hobbies</a></div>
+  <div class="box"><a href="#contact">Contact</a></div>
+</div>
   </nav>
 </header>
-<link rel="stylesheet" href="style.css">
+<div class="grid-container">
+  <div class="grid-item item1">I</div>
+  <div class="grid-item item2">think</div>
+  <div class="grid-item item3">I</div>
+  <div class="grid-item item4">need</div>
+  <div class="grid-item item5">more</div>
+  <div class="grid-item item6">practice</div>
+</div>
 <main>
   <section id="about">
-    <h2>Testing</h2>
-    <p>This is a test page where I can learn something new.</p>
+    <h2>About Me</h2>
+    <p>This is a paragraph about me.</p>
   </section>
 </main>
-<div class="grid-container">
-  <div class="grid-item">one</div>
-  <div class="grid-item">two</div>
-  <div class="grid-item">three</div>
-  <div class="grid-item">four</div>
-  <div class="grid-item">five</div>
-  <div class="grid-item">six</div>
-</div>
-<div class="flex-container">
-  <div class="box">Box one</div>
-  <div class="box">Box two</div>
-  <div class="box">Box three</div>
-</div>
-<div class="responsive-box">Maybe this will change the color.</div>
-<footer>
-  <p>Copyright 2026 Hapu26. All rights reserved.</p>
+        <img src="./images/mie.jpg" alt="Mie">
+<section id="hobbies">
+  <h2>My hobbies</h2>
+</section>
+        
+<ul class="pseudo-list">
+        <li>Running</li>
+        <li>Mountain biking</li>
+        <li>Gym</li>
+      </ul>
+
+    <a href="https://www.google.com/" target="_blank">Visit Google</a>
+
+    <button class="transition-button">This is a test button</button>
+    
+    <table>
+        <tr>
+            <th>Kurssi</th>
+            <th>Opintopisteet</th>
+        </tr>
+        <tr>
+            <td>Liiketoimintaympäristöt</td>
+            <td>5 op</td>
+        </tr>
+        <tr>
+            <td>Websivuston kehittäminen</td>
+            <td>5 op</td>
+        </tr>
+    </table>
+
+    <img src="./images/Duck.jpg" alt="Sample Image" class="filter-image">
+
+    <blockquote class="quote">
+        This is a duck
+      </blockquote>
+
+<section id="contact">
+  <h2>Contact</h2>
+</section>
+<form class="my-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+    </form>
+ <h1 style="color: lightpink;">This my first page</h1>
+ <style>
+    h1 {
+      color: lightgreen;
+    }
+    p {
+      color: black
+    }
+    
+    body {
+      background-color: lightseagreen;
+    }
+    
+    h1 {
+      font-size: 2em;
+    }
+</style>
+    <div class="content-box">
+        <h3>I have never done this before</h3>
+        <p>I think I made it!</p>
+        <div class="animation-box">
+            <p>This box moves</p>
+        </div>
+    </div>
+    <footer>
+  <p>© 2026 Hapu26. All rights reserved.</p>
 </footer>
+</body>
+</html>
+
