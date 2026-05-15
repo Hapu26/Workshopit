@@ -1,0 +1,20 @@
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --primary: #1e90ff;
+}
+
+body[data-a11y="true"] {
+  --bg: #000000;
+  --text: #ffffff;
+  --primary: #ffcc00;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+a, button {
+  color: var(--primary);
+}
