@@ -18,3 +18,18 @@ body {
 a, button {
   color: var(--primary);
 }
+body {
+  font-family: Tahoma, sans-serif;
+}
+body {
+   font-size: 2ch; 
+}
+p {
+  font-size: 2ch;
+}
+h1 {
+  font-size: 2ch;
+}
+h2 {
+  font-size: 2ch;
+}
