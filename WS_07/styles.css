@@ -22,14 +22,39 @@ body {
   font-family: Tahoma, sans-serif;
 }
 body {
-   font-size: 2ch; 
+   font-size: 2ch;
+   font-weight: bold;
+   color: #005757;
 }
 p {
   font-size: 2ch;
+  font-weight: bold;
+  color: #003f3f;
 }
 h1 {
   font-size: 2ch;
+  font-weight: bold;
+  color: #005757;
 }
 h2 {
   font-size: 2ch;
+  font-weight: bold;
+  color: #005757;
+}
+footer p {
+  font-size: 2ch;
+  font-weight: lighter;
+  color: #000000;
+}
+.content-box {
+  padding: 20px;
+  margin: 10px;
+  background-color: #26c7c7;
+  border: 1px solid ;
+}
+body {
+  background-color: #009f9f;
+}
+.container-fluid {
+  background-color: #009f9f;
 }
