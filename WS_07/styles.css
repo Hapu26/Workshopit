@@ -24,7 +24,7 @@ h2 {
 footer p {
   font-size: 2ch;
   font-weight: lighter;
-  color: #000000;
+  color: #424040;
   text-align: center;
 }
 .content-box {
@@ -58,4 +58,7 @@ body {
 }
 .image-wrapper {
   text-align: center;
+}
+.navbar-nav .nav-link.active {
+  color: #005f73 !important;
 }
